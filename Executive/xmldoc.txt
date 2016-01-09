@@ -1,0 +1,8 @@
+<?xml version="1.1" encoding="UTF-8"?>
+  <?xml-proc color="black" background="white"?>
+  <!--  XML test case  -->
+  <LectureNote>
+  </LectureNote>
+  <!-- author comment -->
+  <?xml-proc color="black" background="white"?>
+  <!--  XML test case  -->

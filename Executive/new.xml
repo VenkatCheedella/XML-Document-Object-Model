@@ -1,0 +1,33 @@
+<?xml version="1.1" encoding="UTF-8"?>
+  <?xml-proc color="black" background="white"?>
+  <!--  XML test case  -->
+  <LectureNote course="CSE681">
+    <title>
+      XML Example #1
+    </title>
+    <reference name="Jim" name="Jim">
+      <title>
+        Programming Microsoft .Net
+      </title>
+      <author>
+        <!-- author comment -->
+      </author>
+      <publisher>
+        MicrosoftPress
+      </publisher>
+      <date>
+        2002
+      </date>
+      <page>
+        <pChild course="CSE-681">
+        </pChild>
+        <pChild course="CSE-681">
+        </pChild>
+      </page>
+    </reference>
+    <comment>
+      Description ofPCDATA
+    </comment>
+  </LectureNote>
+  <?xml-proc color="black" background="white"?>
+  <!--  XML test case  -->

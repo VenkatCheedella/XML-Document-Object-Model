@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-ProcessingInstruction-Prologue color="pink" ?>
+<!-- comment in prologue top level comment -->
+<?xml-SecondProcessingInstruction-Prologue color="black" ?>
+<LectureNote course = 'CSE681'>
+<?xml-ProcessingInstruction-Body color="green" ?>
+<!-- comment in body: middle level comment -->
+<SelfClosingTag />
+<title>XML Example #1</title>
+I am the text element and the child node of lectur note element.
+<reference>
+<title>Programming Microsoft.Net</title>
+<!-- second comment in body: middle level comment -->
+<?xml-SecondProcessingInstruction-Body color="orange" ?>
+<author>
+Jeff Prosise
+<note Company = "Wintellect" />
+</author>
+<publisher>MicrosoftPress</publisher>
+I am the text element and the child node of ref element.
+<date>2002</date>
+<page>608</page>
+</reference>
+<comment>Description ofPCDATA</comment>
+</LectureNote>
+<?xml-ProcessingInstruction-Epilogue color="maroon" ?>
+<!-- comment in epilogue: bottom level comment -->
+<?xml-SecondProcessingInstruction-Epilogue color="grey" ?>
+<!-- second comment in epilogue: bottom level comment -->
